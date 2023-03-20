@@ -1,5 +1,7 @@
+
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -13,6 +15,65 @@
   }
 }
 
+.imgsection{
+  height: 40px;
+  width: 40px;
+}
+.imgHome{
+  height: 112px;
+  width: 112px;
+  margin: auto;
+}
+.navlink{
+  display: flex;
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+  padding:2px;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 16px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.list{
+  width: 500px;
+  border: 0.5px solid gray;
+  border-radius: 10px;
+  box-shadow: 0 0 8px black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.fnc1{
+  color: blue;
+}
+.grnbtn{
+  color: green;
+}
+.code1{
+  
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px black;
+  margin-left: 10px;
+}
+.code2{
+  
+  border-radius: 10px;
+  box-shadow: 0 0 8px black;
+  margin-left: 10px;
+  width: 350px;
+}
+span {
+  margin-left: 5px;
+  
+}
+
+.spacebtwn{
+  margin-left: 5px;
+  color: red;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
